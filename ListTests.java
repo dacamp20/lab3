@@ -17,6 +17,7 @@ public class ListTests {
         input.add("aaaa");
 
         List<String> filterExpected = new ArrayList<String>();
+        filterExpected.add("aaaa");
 
         assertArrayEquals(filterExpected.toArray(), ListExamples.filter(input, sc).toArray());
 	}
